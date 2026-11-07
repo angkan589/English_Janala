@@ -78,7 +78,7 @@ const displayLevelWord = (words, id) => {
         if (id) {
             wordContainer.innerHTML = `
             <div class="flex flex-col gap-5 justify-between items-center">
-            <img src="/assets/alert-error.png" alt="">
+            <img src="assets/alert-error.png" alt="">
             <p class="text-[12px] font-[20] font-bangla opacity-80">এই Lesson এ এখনো কোন Vocabulary যুক্ত করা হয়নি।</p>
             <h1 class="text-2xl">নেক্সট Lesson এ যান</h1>
             </div>
@@ -87,7 +87,7 @@ const displayLevelWord = (words, id) => {
         else {
             wordContainer.innerHTML = `
             <div class="flex flex-col gap-5 justify-between items-center">
-            <img src="/assets/alert-error.png" alt="">
+            <img src="assets/alert-error.png" alt="">
             <h1 class="text-2xl">কোন Vocabulary পাওয়া যায়নি।</h1>
             </div>
         `
